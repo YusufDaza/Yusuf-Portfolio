@@ -1,14 +1,11 @@
 /********** Template CSS **********/
 :root {
-    --primary: black;
-    --secondary: black;
-    --light: black;
-    --dark: black;
+    --primary: rgb(1, 81, 1);
+    --secondary: rgb(0, 255, 47);
+    --light: #ffffff;
+    --dark: #00ab61;
 }
 
-body {
-    background-image: url(../img/image02.png);
-}
 
 /*** Spinner ***/
 #spinner {
@@ -183,7 +180,7 @@ h6,
 }
 
 .navbar-light .navbar-brand h1 {
-    color: black
+    color: #FFFFFF;
 }
 
 .navbar-light .navbar-brand img {
@@ -262,8 +259,9 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 6rem;
-    padding: 21rem 0 0 0;
-    background: url(../img/image04.png),
+    padding: 16rem 0 0 0;
+    background:
+        url(../img/bg-circle.png),
        
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
