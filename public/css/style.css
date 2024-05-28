@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: rgb(1, 81, 1);
-    --secondary: rgb(0, 255, 47);
-    --light: #ffffff;
-    --dark: #00ab61;
+    --primary: black;
+    --secondary: black;
+    --light: black;
+    --dark: black;
 }
 
 body {
@@ -183,7 +183,7 @@ h6,
 }
 
 .navbar-light .navbar-brand h1 {
-    color: #FFFFFF;
+    color: black
 }
 
 .navbar-light .navbar-brand img {
@@ -262,9 +262,8 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 6rem;
-    padding: 16rem 0 0 0;
-    background:
-        url(../img/bg-circle.png),
+    padding: 21rem 0 0 0;
+    background: url(../img/image04.png),
        
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
